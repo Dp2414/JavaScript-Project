@@ -92,9 +92,13 @@ function NavBar() {
 function Modal() {
   document.getElementById("searchBar").addEventListener("click", () => {
     document.getElementById("modal").style.display = "flex";
+    document.getElementById("searchBar").style.display = "none";
   });
   document.getElementById("close").addEventListener("click", () => {
     document.getElementById("modal").style.display = "none";
+     document.getElementById("searchBar").style.display = "flex";
+   
+   
   });
 
   const suggestions = [
@@ -137,7 +141,16 @@ function Modal() {
     document.querySelector(".nested").style.display = "flex";
 
     document.querySelector(".modal2").style.height = "auto";
+      
   }
+  document.getElementById("searchInput").addEventListener("input", () => {
+    const input = document.getElementById("searchInput").value.trim();
+    if (input === "") {
+      clearSuggestions();
+    } else {
+      searchSuggestions();
+    }
+  });
 }
 
 function globalSection() {

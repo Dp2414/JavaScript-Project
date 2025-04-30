@@ -415,6 +415,42 @@ padding: 0px !important;
 
 
 @media (max-width: 1024px){
+
+.modal-box{
+        width: 100% !important;
+        height: 50%;
+    }
+
+    .extradiv {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 10px !important;
+            width: 50%;
+            height: 50%;
+           
+        }
+
+                                          #suggestionList {
+                    
+                                              padding: 10px !important;
+                                              width:100% !important;
+                                              margin-left: -20px !important;
+                                                display: flex !important;
+                                                    flex-direction: column;
+                                                    gap: 5px;
+                                          }
+                    
+                                          #suggestionList li {
+                                              padding: 0px !important;
+                                              cursor: pointer;
+                                              width: 320px !important;
+                                              color: grey;
+                                              font-size: 20px;
+                                          
+                    
+                                          }
+
     .logos {
             height: 100vh !important;
     
@@ -500,6 +536,44 @@ padding: 0px !important;
  
 }
 @media (max-width: 768px) {
+
+
+    .modal-box {
+            width: 100% !important;
+            height: 70%;
+        }
+    
+        .extradiv {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 10px !important;
+            height: 70%;
+          
+    
+        }
+                #suggestionList {
+        
+                    padding: 20px !important;
+                    width:100% !important;
+                    margin-left: -20px !important;
+                    display: flex !important; 
+                    flex-direction: column;
+                    gap: 5px;
+                   
+                }
+
+ #suggestionList li {
+     padding: 0px !important;
+     cursor: pointer;
+     width:320px !important;
+     color: grey;
+     font-size: 20px;
+    border: 1px solid rgb(131, 127, 127) !important;
+        gap: 20px !important;
+
+ }
+
     .logoimages img {
         max-width: 80px;
         
@@ -570,14 +644,89 @@ right: 5px;
 /* .nav{
     width:100% !important;
 } */
+ .global,.latest{
+    font-size: 20px ;
+ }
+ .description{
+    gap: 0px !important;
+    width: 60% !important;
+ }
+.line2{
+    flex: 1 !important;
+        
+    height: 1 !important;
+        background-color: black;
+    
+        width: 5px !important;
+        border: none;
+        opacity: 0.8;
+
+   margin: 0px !important;
+ }
+
+.para{
+    font-size: 12px !important;
+    width: 100% !important;
+}
+ .offerspan{
+    font-size: 12px !important;
+    width: 100% !important;
+    
+ }
+ .exclusivelydesc{
+    width: 60% !important;
+    font-size: 12px !important;
+ }
 
 .bi-chat-text{
     left: 250px !important;
+}
+.offerspan2{
+    font-size: 12px !important;
+    width: 100% !important;
+}
+.signdescription{
+    font-size: 12px;
+    width: 100% !important;
+}
+
+.signdescription2{
+        font-size: 12px;
+            width: 100% !important;
+}
+.offersdescription{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0px !important;
+}
+.whole{
+    padding: 20px !important;
 }
 
 }
 
 @media (max-width: 425px){
+
+        #suggestionList {
+        
+                padding: 10px !important;
+                width: 100% !important;
+                margin-left: -20px !important;
+            }
+        
+            #suggestionList li {
+                padding: 0px !important;
+                cursor: pointer;
+                width: 100% !important;
+                color: grey;
+                font-size: 20px;
+                border: 1px solid rgb(131, 127, 127);
+                gap: 20px !important;
+        
+            }
+
+
+
 .global{
     text-align: center !important;
 }
@@ -1117,7 +1266,7 @@ flex-wrap: wrap;
       padding: 10px 800px 10px 0px;
       margin: 0;
       border: 1px solid #ccc;
-      max-width: 200px;
+      width: 200px;
       background: white;
       position: absolute;
       z-index: 1000;
