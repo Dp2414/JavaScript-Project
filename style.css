@@ -707,6 +707,9 @@ right: 5px;
 
 @media (max-width: 425px){
 
+
+
+
         #suggestionList {
         
                 padding: 10px !important;
@@ -855,6 +858,87 @@ flex-wrap: wrap;
  /* .bigcard{
     z-index: 9999999999 !important;
  } */
+ .global,
+ .latest {
+     font-size: 20px;
+ }
+
+ .description {
+     gap: 0px !important;
+     width: 40% !important;
+   
+ }
+
+
+ .line2 {
+     flex: 1 !important;
+
+     height: 1 !important;
+     background-color: black;
+
+     width: 5px !important;
+     border: none;
+     opacity: 0.8;
+
+     margin: 0px !important;
+ }
+
+ .para {
+     font-size: 12px !important;
+     width: 100% !important;
+ }
+
+ .offerspan {
+     font-size: 12px !important;
+     width: 100% !important;
+    
+text-align: center;
+
+ }
+
+ .exclusivelydesc {
+     width: 60% !important;
+     font-size: 12px !important;
+ }
+
+ .bi-chat-text {
+     left: 250px !important;
+ }
+
+ .offerspan2 {
+     font-size: 12px !important;
+     width: 100% !important;
+    text-align: center;
+ }
+
+ .signdescription {
+     font-size: 12px;
+     width: 100% !important;
+     text-align: center;
+ }
+
+ .signdescription2 {
+     font-size: 12px;
+     width: 100% !important;
+ }
+
+ .offersdescription {
+     display: flex !important;
+     flex-direction: column !important;
+     gap: 0px !important;
+ }
+
+ .whole {
+    text-align: center;
+ }
+ .wellnessdesc{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center;
+    gap: 10px !important;
+    
+ }
+
 
 }
 
