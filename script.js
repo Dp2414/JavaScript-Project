@@ -1,13 +1,11 @@
 NavBar();
 Modal();
 globalSection();
-
 lastestoffers();
 ExclusivelyforYou();
 exploremore();
 signaturedining();
 footerAccordian();
-
 
 function NavBar() {
   const navbar = document.getElementsByClassName("nav")[0];
@@ -96,9 +94,7 @@ function Modal() {
   });
   document.getElementById("close").addEventListener("click", () => {
     document.getElementById("modal").style.display = "none";
-     document.getElementById("searchBar").style.display = "flex";
-   
-   
+    document.getElementById("searchBar").style.display = "flex";
   });
 
   const suggestions = [
@@ -141,7 +137,6 @@ function Modal() {
     document.querySelector(".nested").style.display = "flex";
 
     document.querySelector(".modal2").style.height = "auto";
-      
   }
   document.getElementById("searchInput").addEventListener("input", () => {
     const input = document.getElementById("searchInput").value.trim();
@@ -159,6 +154,7 @@ function globalSection() {
   const authentic = document.querySelector(".authentic");
   const soulful = document.querySelector(".soulful");
   const imgbgc = document.querySelector(".imgbgcline");
+
   timeless.addEventListener("mouseover", () => {
     timeless.style.opacity = "1";
     iconic.style.opacity = "0";
