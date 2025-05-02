@@ -21,7 +21,7 @@ function NavBar() {
 
       logo.style.width = "45px";
       logo.style.height = "40px";
-      logo.src = "./tajlogo.png";
+      logo.src = "./Assets/tajlogo.png";
 
       link.forEach((item) => {
         item.classList.remove("text-white");
@@ -37,7 +37,7 @@ function NavBar() {
       btn1.style.color = "white";
       btn11.style.color = "white";
       slash.style.color = "white";
-      logo.src = "./eaf9ae941361d173fdbd613ba600197b69471d50-100x88.png";
+      logo.src = "./Assets/eaf9ae941361d173fdbd613ba600197b69471d50-100x88.png";
 
       link.forEach((item) => {
         item.classList.add("text-white");
@@ -60,7 +60,7 @@ function NavBar() {
       navbar.classList.add("changed");
       logo.style.width = "45px";
       logo.style.height = "40px";
-      logo.src = "./tajlogo.png";
+      logo.src = "./Assets/tajlogo.png";
 
       const allLinks = document.querySelectorAll(".nav-link");
 
@@ -75,7 +75,7 @@ function NavBar() {
       navbar.classList.remove("changed");
       logo.style.width = "70px";
       logo.style.height = "65px";
-      logo.src = "./eaf9ae941361d173fdbd613ba600197b69471d50-100x88.png";
+      logo.src = "./Assets/eaf9ae941361d173fdbd613ba600197b69471d50-100x88.png";
 
       const allLinks = document.querySelectorAll(".nav-link");
 
@@ -183,26 +183,26 @@ function globalSection() {
   });
 
   timeless.addEventListener("mouseover", () => {
-    document.querySelector(".div2").style.backgroundImage = "url(./1.webp)";
+    document.querySelector(".div2").style.backgroundImage = "url(./Assets/1.webp)";
     timeless.style.backgroundColor = "rgba(255, 255, 255, 0.73)";
   });
 
   document.querySelector(".iconic").addEventListener("mouseover", () => {
-    document.querySelector(".div2").style.backgroundImage = "url(./iconic.png)";
+    document.querySelector(".div2").style.backgroundImage = "url(./Assets/iconic.png)";
     document.querySelector(".iconic").style.backgroundColor =
       "rgba(255, 255, 255,0.73)";
   });
 
   document.querySelector(".authentic").addEventListener("mouseover", () => {
     document.querySelector(".div2").style.backgroundImage =
-      "url(./authentic.png)";
+      "url(./Assets/authentic.png)";
     document.querySelector(".authentic").style.backgroundColor =
       "rgba(255, 255, 255, 0.73)";
     document.querySelector(".div2").style.backgroundSize = "cover";
   });
 
   document.querySelector(".soulful").addEventListener("mouseover", () => {
-    document.querySelector(".div2").style.backgroundImage = "url(./4.jpg)";
+    document.querySelector(".div2").style.backgroundImage = "url(./Assets/4.jpg)";
     document.querySelector(".soulful").style.backgroundColor =
       "rgba(255, 255, 255, 0.73)";
   });
@@ -248,17 +248,17 @@ function ExclusivelyforYou() {
 
   const backgroundimg = document.querySelector(".bigsliders");
   const arr = [
-    '<img src="./s2.avif" class="card-img-top responsivecard" alt="...">',
-    '<img src="./s3.avif" alt="First Slide" width="700" class="card-img-top responsivecard" />',
-    '<img src="./s4.avif" alt="Second Slide" class="card-img-top responsivecard" />',
-    '<img src="./s5.avif" alt="Third Slide" class="card-img-top responsivecard" />',
-    '<img src="./s6.avif" alt="Fourth Slide" class="card-img-top responsivecard" />',
-    '<img src="./s7.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
-    '<img src="./s8.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
-    '<img src="./s9.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
-    '<img src="./s10.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
-    '<img src="./s11.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
-    '<img src="./s12.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s2.avif" class="card-img-top responsivecard" alt="...">',
+    '<img src="./Assets/s3.avif" alt="First Slide" width="700" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s4.avif" alt="Second Slide" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s5.avif" alt="Third Slide" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s6.avif" alt="Fourth Slide" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s7.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s8.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s9.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s10.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s11.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
+    '<img src="./Assets/s12.avif" alt="Fifth Slide" class="card-img-top responsivecard" />',
   ];
 
   let currentSlide = 0;
