@@ -384,7 +384,7 @@ function footerAccordian() {
 
   btn2.addEventListener("click", function () {
     if (content.style.maxHeight) {
-      // If open, close it
+      
       content.style.maxHeight = null;
       btn.textContent = "+";
       div.style.gap = "0px";
@@ -397,7 +397,7 @@ function footerAccordian() {
   });
   btn.addEventListener("click", function () {
     if (content.style.maxHeight) {
-      // If open, close it
+     
       content.style.maxHeight = null;
       btn.textContent = "+";
       div.style.gap = "0px";
